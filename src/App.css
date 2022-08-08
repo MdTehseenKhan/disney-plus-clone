@@ -7,9 +7,45 @@ html {
 }
 
 body {
-  @apply bg-[#040717] text-[#f9f9f9] font-['Avenir-Roman'] font-sans;
+  @apply bg-[#040717] text-[#f9f9f9] /*font-[Avenir-Roman]*/;
 }
 
 a {
   @apply text-[#f9f9f9];
 }
+
+/* ------------------------------------------------------------------------------------- */
+/* Header */
+/* ------------------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------------------------- */
+/* Login */
+/* ------------------------------------------------------------------------------------- */
+
+.login-container {
+  @apply flex flex-col text-center overflow-hidden h-screen bg-[url('./src/assets/images/login-background.jpg')] bg-top bg-cover bg-no-repeat;
+}
+.login-container .content {
+  @apply mb-[10vw] w-full relative min-h-screen flex flex-col justify-center items-center py-20 px-10 h-full;
+}
+.login-container .cta {
+  @apply flex flex-col mb-[2vw] max-w-[650px] duration-[0.2s] transition-opacity ease-out w-full;
+}
+.login-container .cta-logo-one {
+  @apply mx-auto mb-3 max-w-[600px] min-h-[1px] block w-full;
+}
+.login-container .signup-btn {
+  @apply uppercase font-semibold text-[#f9f9f9] bg-[#0063e5] hover:bg-[#0483ee] mb-3 w-full text-lg tracking-[1.5px] py-4 rounded;
+}
+.login-container .description {
+  @apply mx-auto text-xs tracking-[1.5px] leading-normal mb-6;
+}
+.login-container .cta-logo-two {
+  @apply mx-auto max-w-[600px] mb-5 inline-block align-bottom w-full;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/*  */
+/* ------------------------------------------------------------------------------------- */

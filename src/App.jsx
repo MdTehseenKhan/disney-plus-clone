@@ -1,9 +1,15 @@
+import { Route, Routes } from "react-router-dom"
+
+import Login from "./components/Login"
+
 import "./App.css"
 
 function App() {
   return (
-    <div className="App">
-      <h2 className="text-2xl">This is gonna be the Badass Clone 🚀</h2>
+    <div>
+      <Routes>
+        <Route path="/" element={<Login />} />
+      </Routes>
     </div>
   )
 }
