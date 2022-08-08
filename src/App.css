@@ -7,5 +7,9 @@ html {
 }
 
 body {
-  @apply bg-[#040717] text-[f9f9f9] font-[Avenir-Roman];
+  @apply bg-[#040717] text-[#f9f9f9] font-['Avenir-Roman'] font-sans;
+}
+
+a {
+  @apply text-[#f9f9f9];
 }
