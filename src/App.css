@@ -18,7 +18,15 @@ a {
 /* Header */
 /* ------------------------------------------------------------------------------------- */
 
-
+.nav-menu .nav-item {
+  @apply relative cursor-pointer flex gap-1 items-center p-3 text-center border-b-4 border-transparent hover:border-[#f9f9f9];
+}
+.nav-menu .nav-item img {
+  @apply w-5 min-w-[20px] h-5;
+}
+.nav-menu .nav-item span {
+  @apply text-[#f9f9f9] text-xs tracking-[1.42px] leading-[1.08px] py-0.5 whitespace-nowrap relative;
+}
 
 /* ------------------------------------------------------------------------------------- */
 /* Login */
